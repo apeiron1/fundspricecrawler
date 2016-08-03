@@ -65,6 +65,5 @@ def main(url):
 
 ## cycle
 for i in range(len(funds)):
-    # url = urllib.urlopen("http://www.morningstar.it/it/funds/snapshot/snapshot.aspx?id="+funds[i])
     url = 'http://www.morningstar.it/it/funds/snapshot/snapshot.aspx?id='+funds[i]
     main(url)
